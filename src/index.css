@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  @apply w-full h-full p-0 m-0 box-border max-w-none overflow-hidden
+}
+
+@layer components {
+  .scene-render {
+    @apply w-full h-full touch-none p-0 m-0;
+  }
+}
